@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-image: url(../img/dde4093dcbea66648744e612b44410b1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversion {
+    width: 550px;
+    border: 1px solid rgb(150, 2, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conversion__unit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #0a0707;
+    color: rgb(150, 2, 9);
+    font-family: 'Terminator';
+    font-size: 17px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+}
+
+.conversion__title {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+.conversion__title:hover {
+    color: blue;
+    text-shadow: none;
+    transition: 0.5s;
+}
+
+.conversion__input {
+    font-family: 'Terminator';
+    appearance: none;
+    color: rgb(150, 2, 9);
+    background-color: black;
+    font-size: 58px;
+    margin-bottom: 26px;
+    border: 2px solid white;
+    text-shadow: 1px 0px 5px rgb(150, 2, 9);
+    border-radius: 5px;
+    padding: 14px 14px;
+    width: 200px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.conversion__input:hover {
+    color: blue;
+    transition: 0.5s;
+    text-shadow: none;
+}
+
+.conversion__btn {
+    font-size: 16px;
+    background: rgb(131, 131, 4);
+    padding: 9px 27px;
+    border: 1px solid rgb(150, 2, 9);
+
+    border-radius: 5px;
+
+    margin-bottom: 34px;
+    text-shadow: 0 0 12px black;
+    transition: 0.5s;
+
+}
+
+.conversion__btn:hover {
+    transition: 1s;
+    cursor: pointer;
+    background: rgb(233, 233, 33);
+}
+
+.conversion__list {
+    background-color: #0a0707;
+    width: 548px;
+    height: 390px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 14px 0px;
+}
+
+.conversion__card {
+    width: 500px;
+    text-align: center;
+    border: 2px solid rgb(150, 2, 9);
+}
+
+.conversion__card-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(150, 2, 9);
+
+    margin-top: 30px;
+    margin-bottom: 9px;
+    text-shadow: 0 0 14px #c00;
+}
+
+.conversion__card-title:hover {
+    color: blue;
+    text-shadow: none;
+}
+
+.conversion__card-subtitle {
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px #c00;
+}
+
+@font-face {
+    font-family: 'Terminator';
+    src: url(../fonts/terminatorcyr_semi_expandedbold.ttf);
+}
